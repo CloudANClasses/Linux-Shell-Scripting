@@ -70,7 +70,7 @@ deploy
 
   - Here code can be anything you choose here, but obviously you should choose something that is meaningful or useful in the context of your script as a whole.
   - Example
-#!/bin/bash
+  - #!/bin/bash
 
 function install(){
   echo "executing ${FUNCNAME} - start"
