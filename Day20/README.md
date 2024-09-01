@@ -2,46 +2,46 @@
 
   - If the specified condition is not true in the if part then the else part will be executed
   - Syntax
-if [ expression ]
-then
+  - if [ expression ]
+  - then
    statement1
-else
+  - else
    statement2
-fi
+  - fi
   - Example
 #!/bin/bash
-name=""
-othername="saurav sharma"
+  - name=""
+  - othername="saurav sharma"
 
-if [[ -n ${name} ]]
-then
+  - if [[ -n ${name} ]]
+  - then
     echo "length of string is non zero"
-else
+  - else
     echo "length of string is zero"
-fi
+  - fi
 
-if [[ -z ${name} ]]
-then
+  - if [[ -z ${name} ]]
+  - then
     echo "length of string is zero -two"
-else
+  - else
     echo "length of string is non zero. = two"
-fi
+  - fi
 
-if [[ ${name} == ${othername} ]]
-then
+  - if [[ ${name} == ${othername} ]]
+  - then
     echo "both string are equals - three"
-else
+  - else
     echo "both string are not equals. - three"
-fi
+  - fi
 
-if [[ ${name} != ${othername} ]]
-then
+  - if [[ ${name} != ${othername} ]]
+  - then
     echo "both string are not equals -four"
-else
+  - else
     echo "both strings are equals -four"
-fi
+  - fi
 
-echo "I am Here"
+  - echo "I am Here"
 
   - Output
   - ./if-else.sh
@@ -52,38 +52,38 @@ echo "I am Here"
   - To use multiple conditions in one if-else block, then elif keyword is used in shell. If the expression1 is true then it executes statements 1 and 2, and this process continues.If none of the conditions is true then it processes else part.
 
   - Syntax
-if [ expression1 ]
-then
+  - if [ expression1 ]
+  - then
    statement1
    statement2
    .
    .
-elif [ expression2 ]
-then
+  - elif [ expression2 ]
+  - then
    statement3
    statement4
    .
    .
-else
+  - else
    statement5
-fi
+  - fi
 
   - Example:
 #!/bin/bash
-number=4
+  - number=4
 
-if [[ ${number} -eq 10 ]]
-then
-  echo "number is 10"
-elif [[ ${number} -lt 10 ]]
-then
+  - if [[ ${number} -eq 10 ]]
+  - then
+  -   echo "number is 10"
+  - elif [[ ${number} -lt 10 ]]
+  - then
   echo "number is less then 10"
-elif [[ ${number} -lt 5 ]]
-then
+  - elif [[ ${number} -lt 5 ]]
+  - then
   echo "number is less then 5"
-else
+  - else
   echo "number is grater then 10"
-fi
+  - fi
   - Output
   - ./elif.sh
 
