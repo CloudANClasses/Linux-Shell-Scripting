@@ -1,4 +1,4 @@
-## Day 7 Sudoers file and Sofware Management
+## Day 7 Sudoers file and Software Management
 
 ## Sudo 
 
