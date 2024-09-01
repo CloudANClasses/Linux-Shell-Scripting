@@ -33,6 +33,7 @@
 
  #!/bin/bash
 # System define variables.
+
 # echo ${SHELL}
 echo ${HOME} # will show the home directory of current user
 echo ${OSTYPE} # type type of operating system.
