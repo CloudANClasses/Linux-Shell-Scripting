@@ -31,7 +31,7 @@
   - LANG - The current locales settings. 
   - TERM - The current terminal emulation.
 
- #!/bin/bash
+  - #!/bin/bash
 # System define variables.
 
  - echo ${SHELL}
