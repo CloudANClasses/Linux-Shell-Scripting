@@ -38,6 +38,11 @@ Practical in notes
 
   - Student work:
   - Write an Article & post it on LinkedIn the Linux Commands
+    
+## End of Linux Session!! Getting started our Journey with Programming Language
+
+## Bash Shell Scripting !!
+
 
  [← Previous Day](../Day08/README.md) | [Next Day →](../Day10/README.md)
 
