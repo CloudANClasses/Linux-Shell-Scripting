@@ -91,7 +91,7 @@ fi
   - Student work:
   - Write an Article & post it on LinkedIn Shell Scripting.
 
- [← Previous Day](../day18/README.md) | [Next Day →](../day20/README.md)
+ [← Previous Day](../Day18/README.md) | [Next Day →](../Day20/README.md)
  
 
  - All the Best !! Happy Learning
